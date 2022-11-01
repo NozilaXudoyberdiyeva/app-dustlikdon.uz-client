@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+body{
+    margin: 0;
+}
+/**************** Header styles start! *******************/
+.header{
+    background-color: #FAFAFA;
+}
+.container{
+    width: 1320px;
+    height: 80px;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 165px;
+}
+.header-logo-img{
+    width: 142px;
+    height: 22px;
+    margin-top: 29px;
+    margin-right: 60px;
+    margin-bottom: 29px;
+}
+.header-search{
+    width: 401px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 169px;
+    margin-bottom: 20px;
+    padding-left: 45px;
+    border-color: transparent;
+    box-shadow: 0 2px 2px #CCCCCC;
+    border-radius: 5px;
+}
+.header-end{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 336px;
+    height: 100%;
+}
+.language{
+    margin-top: 31px;
+    margin-right: 45px;
+    margin-bottom: 32px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    opacity: 0.7;
+}
+.header-call{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 193px;
+    height: 40px;
+    border: 1px solid #008F48;
+    border-radius: 10px;
+}
+.call-img{
+    width: 17px;
+    height: 17px;
+    margin: 12px 9px 13px 13px;
+}
+.phone-number{
+    margin: 13px 11px 11px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #008F48;
+}
+
+/**************** Navbar styles start! ******************/
+.navbar-wrapper{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 165px;
+    width: 910px;
+    height: 70px;
+}
+.nav-logo{
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    background: #008F48;
+    border-radius: 10px;
+}
+.nav-logo-img{
+    width: 22px;
+    height: 20px;
+    margin: 9px 11px 9px 9px;
+}
+.nav-list{
+    margin-left: -42px;
+}
+.nav-item{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 28px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 100%;
+    color: #000000;
+    opacity: 0.7;
+}
+/**************** Navbar styles end! ******************/
+/**************** Header styles end! ******************/
