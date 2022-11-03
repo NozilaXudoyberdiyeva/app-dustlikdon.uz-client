@@ -40,7 +40,7 @@ body{
     margin-bottom: 20px;
     padding-left: 45px;
     border-color: transparent;
-    box-shadow: 0 2px 2px #CCCCCC;
+    box-shadow: 0 2px 2px #CCC;
     border-radius: 5px;
 }
 .header-end{
@@ -124,7 +124,7 @@ body{
     text-decoration: none;
     font-size: 14px;
     line-height: 100%;
-    color: #000000;
+    color: #000;
     opacity: 0.7;
 }
 /**************** Navbar styles end! ******************/
@@ -182,7 +182,7 @@ body{
     font-size: 32px;
     line-height: 42px;
     text-align: center;
-    color: #FFFFFF;
+    color: #FFF;
 }
 .circle1{
     width: 15px;
@@ -190,7 +190,7 @@ body{
     background: #2E2E2E;
     border-radius: 50%;
     margin: 50px;
-    box-shadow: 40px 0px 0px 0px #fff, -40px 0px 0px 0px #fff;
+    box-shadow: 40px 0 0 0 #fff, -40px 0 0 0 #fff;
     position: absolute;
     left: 700px;
     top: 450px;
@@ -200,13 +200,11 @@ body{
 .section2-wrapper{
     display: flex;
     justify-content: space-between;
-
     flex-wrap: wrap;
     width: 1101px;
     height: 1584px;
     margin-top: 104px;
     margin-left: 165px;
-    border: 1px solid #000;
 }
 .section2-row{
     display: flex;
@@ -220,7 +218,7 @@ body{
     font-size: 32px;
     line-height: 100%;
     margin-top: 0;
-    color: #000000;
+    color: #000;
     margin-bottom: 50px;
 }
 .section2-row-end{
@@ -239,8 +237,8 @@ body{
 .section2-card{
     width: 350px;
     height: 520px;
-    background: #FFFFFF;
-    box-shadow: 0 2px 2px #CCCCCC;
+    background: #FFF;
+    box-shadow: 0 2px 2px #CCC;
     border-radius: 5px;
     margin-bottom: 104px;
 }
@@ -260,7 +258,7 @@ body{
 .date{
     font-size: 15px;
     line-height: 100%;
-    color: #000000;
+    color: #000;
     opacity: 0.5;
     position: absolute;
     bottom: 3px;
@@ -276,7 +274,7 @@ body{
 .watch{
     font-size: 15px;
     line-height: 100%;
-    color: #000000;
+    color: #000;
     opacity: 0.5;
     position: absolute;
     bottom: 3px;
@@ -292,7 +290,7 @@ body{
 .massage{
     font-size: 15px;
     line-height: 100%;
-    color: #000000;
+    color: #000;
     opacity: 0.5;
     position: absolute;
     bottom: 3px;
@@ -302,14 +300,14 @@ body{
     font-weight: 600;
     font-size: 18px;
     line-height: 100%;
-    color: #000000;
+    color: #000;
     margin-bottom: 45px;
     margin-left: 20px;
 }
 .section2-card-desc{
     font-size: 16px;
     line-height: 24px;
-    color: #000000;
+    color: #000;
     opacity: 0.7;
     margin-left: 20px;
 }
@@ -330,8 +328,8 @@ body{
 .section2-card2{
     width: 350px;
     height: 520px;
-    background: #FFFFFF;
-    box-shadow: 0px 5px 15px #D2D2D2;
+    background: #FFF;
+    box-shadow: 0 5px 15px #D2D2D2;
     border-radius: 10px;
 }
 .section2-card2-img{
@@ -358,17 +356,18 @@ body{
     font-weight: 500;
     font-size: 18px;
     line-height: 100%;
-    color: #FFFFFF;
+    color: #FFF;
 }
 .section2-card3-title{
     font-weight: 600;
     font-size: 18px;
     line-height: 24px;
-    color: #000000;
+    color: #00;
     margin-bottom: 15px;
     margin-left: 20px;
 }
 /**************** Section2 styles end! ******************/
+/**************** Section3 styles start! ******************/
 .section3{
     width: 100%;
     height: 206px;
@@ -404,4 +403,114 @@ body{
     margin-top: 78px;
     margin-right: 86px;
 }
+/**************** Section3 styles end! ******************/
+/**************** Section4 styles start! ******************/
+.section4-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1101px;
+    height: 687px;
+    margin-left: 165px;
+}
+.section4-row{
+    width: 100%;
+    height: 163px;
+    margin-top: 105px;
+    margin-bottom: 45px;
+}
+.section4-title{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    color: #000;
+}
+.section4-row-bottom{
+    display: flex;
+    justify-content: center;
+    width: 455px;
+    height: 64px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 2px #CCC;
+    border-radius: 5px;
+}
+.section4-row-title{
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 55px;
+}
+.section4-link1{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.section4-link{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 100%;
+    color: #000;
+    opacity: 0.8;
+}
+.box{
+    width: 113px;
+    height: 44px;
+    left: 179px;
+    top: 2560px;
+    background: #008F48;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px 28px;
+}
+.section4-card{
+    width: 350px;
+    height: 369px;
+    background: #FFF;
+    box-shadow: 0 2px 2px #CCC;
+    border-radius: 5px;
+}
+.section4-card-img{
+    position: relative;
+}
+.section4-card-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+.camera{
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left: 701px;
+    top: 2970px;
+}
+.section4-card2-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #008F48;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+.section4-card3-img{
+    position: relative;
+}
+.video{
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left: 1080px;
+    top: 2970px;
+}
+.section4-card2{
+    width: 350px;
+    height: 369px;
+    background: #FFF;
+    box-shadow: 0 5px 15px #D2D2D2;
+    border-radius: 10px;
+}
+/**************** Section4 styles end! ******************/
 /**************** Main styles end! ******************/
